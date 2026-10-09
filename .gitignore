@@ -1,8 +1,22 @@
-.ipynb_checkpoints/
+# Python
 __pycache__/
 *.py[cod]
 *.so
 .Python
+
+# Virtual environments
 env/
 venv/
 .venv/
+
+# Tooling caches
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter scratch notebooks
+Untitled*

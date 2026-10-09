@@ -1,0 +1,6 @@
+line-length = 88
+
+[lint]
+select = ["E", "F", "W", "I", "N", "UP", "B"]
+# E, M, H, N follow physics notation (energy, magnetization, field, lattice size)
+ignore = ["N802", "N803", "N806"]
